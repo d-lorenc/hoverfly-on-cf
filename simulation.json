@@ -1,0 +1,64 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 200,
+					"body": "{\n   \"time\": \"10:59:29 AM\",\n   \"milliseconds_since_epoch\": 1497610769753,\n   \"date\": \"06-16-2017\"\n}\n",
+					"encodedBody": false,
+					"headers": {
+						"Access-Control-Allow-Origin": [
+							"*"
+						],
+						"Content-Length": [
+							"100"
+						],
+						"Content-Type": [
+							"application/json; charset=ISO-8859-1"
+						],
+						"Date": [
+							"Fri, 16 Jun 2017 10:59:29 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Google Frontend"
+						],
+						"X-Cloud-Trace-Context": [
+							"7f2612344ed395499f444031bbea96b1"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "time.jsontest.com"
+					},
+					"scheme": {
+						"exactMatch": "http"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"exactMatch": ""
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.12.0",
+		"timeExported": "2017-06-16T20:59:36+10:00"
+	}
+}

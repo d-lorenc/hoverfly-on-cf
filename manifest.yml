@@ -1,0 +1,7 @@
+---
+applications:
+  - name: hoverfly
+    buildpack: binary_buildpack
+    memory: 64M
+    command: ./hoverfly -webserver -pp $PORT -import simulation.json
+    random-route: true
